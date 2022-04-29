@@ -1,0 +1,13 @@
+div.w3-left {
+   padding-left: ;
+}
+div.w3-right {
+    padding-left: 500px;
+}
+div.w3-center {
+    align-items: center;
+    display: flex;
+    flex-direction: ;
+    justify-content: center;
+
+}
