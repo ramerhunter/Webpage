@@ -54,6 +54,14 @@ h1 {
   /* Hide the images by default */
   .mySlides {
     display: none;
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .mySlides > img {
+    width: 100%;
+    object-fit: cover;
   }
   
   /* Add a pointer when hovering over the thumbnail images */
@@ -66,16 +74,20 @@ h1 {
   .next {
     cursor: pointer;
     position: absolute;
-    top: 40%;
+    top: 50%;
     width: auto;
     padding: 16px;
-    margin-top: -50px;
+    transform: translateY(-50%);
     color: white;
     font-weight: bold;
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    -webkit-user-select: none;
+    transition: 0.4s;
+  }
+
+  .prev {
+    left: 0;
   }
   
   /* Position the "next button" to the right */
@@ -137,24 +149,10 @@ h1 {
   /* Slideshow container */
   .slideshow-container {
     max-width: 1000px;
+    height: 500px;
+    overflow: hidden;
     position: relative;
     margin: auto;
-  }
-  
-  /* Next & previous buttons */
-  .prev, .next {
-    cursor: pointer;
-    position: static;
-    top: 50%;
-    width: auto;
-    padding: 16px;
-    margin-top: -22px;
-    color: white;
-    font-weight: bold;
-    font-size: 18px;
-    transition: 0.6s ease;
-    border-radius: 0 3px 3px 0;
-    user-select: none;
   }
   
   /* Position the "next button" to the right */
