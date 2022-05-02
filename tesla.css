@@ -53,7 +53,7 @@ body, html {
   
   .bg-image {
     /* Full height */
-    height: 50%; 
+    height: 100%; 
     
     /* Center and scale the image nicely */
     background-position: center;
@@ -62,7 +62,7 @@ body, html {
   }
   
   /* Images used */
-  .img1 { background-image: url("https://electrek.co/wp-content/uploads/sites/3/2021/05/Tesla-Logo-Hero.jpg?quality=82&strip=all&w=1000"); }
+  .img1 { background-image: url("https://electrek.co/wp-content/uploads/sites/3/2022/01/TEsla-TSLA-hero.jpg?quality=82&strip=all"); }
   .img2 { background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social"); }
   .img3 { background-image: url("https://www.silverstonefleetmanagement.com/uploads/Tesla%20New%20Model%20Y%201.jpg"); }
   .img4 { background-image: url("https://cdn.motor1.com/images/mgl/P124r/s1/tesla-model-s.webp"); }
