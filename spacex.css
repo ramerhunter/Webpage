@@ -16,27 +16,27 @@ h1 {
 }
 /*add a black background color to the top navigation*/
 .topnav {
-    background-color: #333;
-    overflow: hidden;
+  background-color: #333;
+  overflow: hidden;
 }
 /*style the links inside the navigation bar*/
 .topnav a {
-    float: left;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
+  float: left;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
 }
 /* change the color of the links on hover*/
 .topnav a:hover {
-    background-color: #ddd;
-    color: black;
+  background-color: #ddd;
+  color: black;
 }
 /* Add a color to the active/current link*/
 .topnav a.active {
-    background-color: rgb(159, 54, 54);
-    color: white;
+  background-color: rgb(159, 54, 54);
+  color: white;
 }
 * {
     box-sizing: border-box;
@@ -216,4 +216,34 @@ h1 {
   /* On smaller screens, decrease text size */
   @media only screen and (max-width: 300px) {
     .prev, .next,.text {font-size: 11px}
+  }
+
+  @media (max-width: 460px) {
+    h1 {
+        font-size: 3.5rem;
+        line-height: 1.2rem;
+    }
+}
+
+a {
+  color: #477ca7;
+}
+a:visited {
+  color: #74638f;
+}
+
+/* Responsive layout - when the screen is less than 400px wide, make the navigation links stack on top of each other instead of next to each other */
+@media screen and (max-width: 400px) {
+  .navbar a {
+    float: none;
+    width: 100%;
+  }
+
+  h2 {
+    text-align: left;
+    float: left;
+  }
+
+  p {
+    text-align: left;
   }

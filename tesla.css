@@ -1,0 +1,70 @@
+html {
+    font-size: 10px;
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 1.6em;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: auto;
+}
+
+/*add a black background color to the top navigation*/
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+}
+/*style the links inside the navigation bar*/
+.topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+}
+/* change the color of the links on hover*/
+.topnav a:hover {
+    background-color: #ddd;
+    color: black;
+}
+/* Add a color to the active/current link*/
+.topnav a.active {
+    background-color: rgb(159, 54, 54);
+    color: white;
+}
+
+h1 {
+    font-size: 4rem;
+    margin-bottom: 0;
+}
+
+body, html {
+    height: 100%;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+  }
+  
+  * {
+    box-sizing: border-box;
+  }
+  
+  .bg-image {
+    /* Full height */
+    height: 50%; 
+    
+    /* Center and scale the image nicely */
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+  
+  /* Images used */
+  .img1 { background-image: url("https://electrek.co/wp-content/uploads/sites/3/2021/05/Tesla-Logo-Hero.jpg?quality=82&strip=all&w=1000"); }
+  .img2 { background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social"); }
+  .img3 { background-image: url("https://www.silverstonefleetmanagement.com/uploads/Tesla%20New%20Model%20Y%201.jpg"); }
+  .img4 { background-image: url("https://cdn.motor1.com/images/mgl/P124r/s1/tesla-model-s.webp"); }
+  .img5 { background-image: url("https://www.cnet.com/a/img/resize/50a2b0406834f3b07d90495e3fac989d6bf51af3/hub/2016/04/28/5a91e8fc-14bc-4c22-abe4-b990073328d2/2016-tesla-model-s-19-of-43.jpg?auto=webp&width=768"); }
+  .img6 { background-image: url("https://www.enowenergy.com/wp-content/uploads/2017/05/tesla-solar.jpg"); }
