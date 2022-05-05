@@ -56,12 +56,20 @@ body, html {
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
+    overflow: hidden;
   }
   
   /* Images used */
-  .img1 { background-image: url("https://electrek.co/wp-content/uploads/sites/3/2022/01/TEsla-TSLA-hero.jpg?quality=82&strip=all"); }
+  .img1 { background-image: url("https://electrek.co/wp-content/uploads/sites/3/2022/01/TEsla-TSLA-hero.jpg?quality=82&strip=all");
+}
   .img2 { background-image: url("https://tesla-cdn.thron.com/delivery/public/image/tesla/c82315a6-ac99-464a-a753-c26bc0fb647d/bvlatuR/std/1200x628/lhd-model-3-social"); }
   .img3 { background-image: url("https://www.silverstonefleetmanagement.com/uploads/Tesla%20New%20Model%20Y%201.jpg"); }
   .img4 { background-image: url("https://cdn.motor1.com/images/mgl/P124r/s1/tesla-model-s.webp"); }
   .img5 { background-image: url("https://www.cnet.com/a/img/resize/50a2b0406834f3b07d90495e3fac989d6bf51af3/hub/2016/04/28/5a91e8fc-14bc-4c22-abe4-b990073328d2/2016-tesla-model-s-19-of-43.jpg?auto=webp&width=768"); }
   .img6 { background-image: url("https://www.enowenergy.com/wp-content/uploads/2017/05/tesla-solar.jpg"); }
+
+  .sexy {
+      font-size: 15em;
+  }
+  @media (max-width: 460px) 
