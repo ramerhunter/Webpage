@@ -13,15 +13,16 @@ body {
     text-align: center;
     color: #333;
     margin: auto;
-    background-image: url(https://images.unsplash.com/photo-1532793218979-f3365c284b32?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MXx8YmxhY2slMjBzcGFjZXxlbnwwfHwwfHw%3D&w=1000&q=80);
-  background-repeat: no-repeat;
-  background-attachment: fixed;  
-  background-size: cover;
 }
 
 .para {
   padding-left: 25%;
   padding-right: 25%;
+}
+
+.rocket {
+  font: bold;
+  color: darkblue;
 }
 
 * {
@@ -69,7 +70,7 @@ body {
     font-size: 20px;
     border-radius: 0 3px 3px 0;
     user-select: none;
-    transition: 0.4s;
+    transition: 0.1s;
   }
 
   .prev {
@@ -186,7 +187,7 @@ body {
   /* Fading animation */
   .fade {
     animation-name: fade;
-    animation-duration: 1.5s;
+    animation-duration: .8s;
   }
   
   @keyframes fade {
@@ -222,5 +223,5 @@ body {
   p {
     text-align: left;
   }
-
+}
  
